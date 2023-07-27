@@ -14,7 +14,7 @@ const Main = () => {
     });
   }, []);
 
-  //   console.log(movie);
+    console.log(movie);
   const trancateString = (str, num) => {
     return str?.length > num ? str.slice(0, num) + "..." : str;
   };
