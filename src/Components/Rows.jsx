@@ -13,7 +13,7 @@ export const Rows = ({ title, fetchURL, rowId }) => {
     });
   }, [fetchURL]);
 
-  // console.log(movies);
+  console.log(movies);
   const slideLeft = () => {
     let slider = document.getElementById('slider' + rowId)
     slider.scrollLeft = slider.scrollLeft - 1000
